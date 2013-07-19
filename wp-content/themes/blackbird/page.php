@@ -31,11 +31,6 @@
 
             </div>
         </div>
-        <div class="grid_8 omega">
-            <!--Start Sidebar-->
-            <?php get_sidebar(); ?>
-            <!--End Sidebar-->
-        </div> 
     </div>
 </div>
 </div>

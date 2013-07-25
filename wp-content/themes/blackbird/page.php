@@ -17,7 +17,7 @@
 <!--Start Page Content -->
 <div class="page-content-container">
     <div class="page-content">
-        <div class="grid_16 alpha">
+
             <div class="content-bar">  			
                 <?php if (have_posts()) : the_post(); ?>
                     <?php the_content(); ?>
@@ -30,7 +30,7 @@
                 <!--End Comment box-->
 
             </div>
-        </div>
+
     </div>
 </div>
 </div>

@@ -26,7 +26,6 @@
                 <?php endif; ?>
 
                 <!--Start Comment box-->
-                <?php comments_template(); ?>
                 <!--End Comment box-->
 
             </div>

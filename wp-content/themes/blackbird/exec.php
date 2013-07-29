@@ -10,14 +10,13 @@ Template Name: Exec page
     <div class="clear"></div>
 </div>
 <!--Start Page Content -->
-      <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-tooltip.js"></script>
-    <script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-popover.js"></script>
+    <link href="/wp-content/themes/blackbird/css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
+    <script src="/wp-content/themes/blackbird/js/jquery-1.10.2.min.js"></script>
+    <script src="/wp-content/themes/blackbird/js/bootstrap.min.js"></script>
     <script>
     // TODO: cancel out other boxes on click or on hover
     // TODO: add positions
-    $(function () { 
+    $(document).ready(function () { 
       $("#mayank").popover();
       $("#rechung").popover();
       $("#phoebe").popover();

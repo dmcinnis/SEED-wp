@@ -1,0 +1,14 @@
+/*Exec Page
+===================================================*/
+    .exec-img {
+    	height: 125px;
+    	width: 100px;
+    	overflow: hidden;
+    }
+    .exec li {
+    	float: left;
+    	display: inline;
+    }
+    #quad li {
+    	width: 25%;
+    }

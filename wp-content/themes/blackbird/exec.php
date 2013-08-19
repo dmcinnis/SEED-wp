@@ -19,18 +19,18 @@ Template Name: Exec page
     // TODO: add positions
     // TODO: add CSS for uniform image size, arrange as grid
     $(document).ready(function () { 
-      $("#mayank").popover({trigger: "focus"});
-      $("#rechung").popover({trigger: "focus"});
-      $("#phoebe").popover({trigger: "focus"});
-      $("#bobby").popover({trigger: "focus"});
-      $("#cristina").popover({trigger: "focus"});
-      $("#apurva").popover({trigger: "focus"});
-      $("#john").popover({trigger: "focus"});
-      $("#carlos").popover({trigger: "focus"});
-      $("#jack").popover({trigger: "focus"});
-      $("#sanjay").popover({trigger: "focus"});
-      $("#bethany").popover({trigger: "focus"});
-      $("#nora").popover({trigger: "focus"});
+      $("#mayank").popover({trigger: "hover"});
+      $("#rechung").popover({trigger: "hover"});
+      $("#phoebe").popover({trigger: "hover"});
+      $("#bobby").popover({trigger: "hover"});
+      $("#cristina").popover({trigger: "hover"});
+      $("#apurva").popover({trigger: "hover"});
+      $("#john").popover({trigger: "hover"});
+      $("#carlos").popover({trigger: "hover"});
+      $("#jack").popover({trigger: "hover"});
+      $("#sanjay").popover({trigger: "hover"});
+      $("#bethany").popover({trigger: "hover"});
+      $("#nora").popover({trigger: "hover"});
     });
     </script>
 <div class="page-content-container">

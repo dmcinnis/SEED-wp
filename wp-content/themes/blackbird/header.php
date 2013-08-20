@@ -29,18 +29,6 @@
                             <div class="logo"> <a href="<?php echo home_url(); ?>"><img src="<?php if (blackbird_get_option('blackbird_logo') != '') { ?><?php echo blackbird_get_option('blackbird_logo'); ?><?php } else { ?><?php echo get_template_directory_uri(); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('name'); ?>" /></a></div>
                         </div>
                         <div class="grid_8 omega">
-                            <div class="header-info">
-                                <?php if (blackbird_get_option('blackbird_topright_cell') != '') { ?>
-                                    <p class="cell"><img src="<?php echo get_template_directory_uri(); ?>/images/call-us.png"  class="call-us" />&nbsp; <?php echo stripslashes(blackbird_get_option('blackbird_topright_cell')); ?></p>
-                                <?php } else { ?>
-                                    <p class="cell"><img src="<?php echo get_template_directory_uri(); ?>/images/call-us.png"  class="call-us" />&nbsp;Call Us (111) 234 - 5678</p>
-                                <?php } ?>
-                                <?php if (blackbird_get_option('blackbird_topright_text') != '') { ?>
-                                    <p><?php echo stripslashes(blackbird_get_option('blackbird_topright_text')); ?></p>
-                                <?php } else { ?>
-                                    <p><?php _e('21/B, London Campus, British Road, Birmingham, UK','black-bird'); ?></p>
-                                <?php } ?>
-                            </div>
                         </div>
                     </div>
                     <div class="clear"></div>

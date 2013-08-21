@@ -7,56 +7,269 @@
 <?php get_header(); ?>  
 <div class="clear"></div>
 <!--Start Slider Wrapper-->
-<div class="slider-wrapper">            
-    <div class="flexslider">
-        <ul class="slides">
-            <!--Start Slider-->
-            <?php
-            //The strpos funtion is comparing the strings to allow uploading of the Videos & Images in the Slider
-            $mystring1 = blackbird_get_option('blackbird_slideimage1');
-            $value_img = array('.jpg', '.png', '.jpeg', '.gif', '.bmp', '.tiff', '.tif');
-            $check_img_ofset = 0;
-            foreach ($value_img as $get_value) {
-                if (preg_match("/$get_value/", $mystring1)) {
-                    $check_img_ofset = 1;
-                }
-            }
-            // Note our use of ===.  Simply == would not work as expected
-            // because the position of 'a' was the 0th (first) character.
-            ?>
-            <?php if ($check_img_ofset == 0 && blackbird_get_option('blackbird_slideimage1') != '') { ?>
-                <li><?php echo blackbird_get_option('blackbird_slideimage1'); ?></li>
-            <?php } else { ?>  
-                <li>  <?php if (blackbird_get_option('blackbird_slideimage1') != '') { ?>
-                        <img  src="<?php echo blackbird_get_option('blackbird_slideimage1'); ?>" alt=""/>
-                    <?php } else { ?>
-                        <img  src="<?php echo get_template_directory_uri(); ?>/images/slider1.png" alt=""/>
-                    <?php } ?>
-                    <div class="flex-caption">
-                        <?php if (blackbird_get_option('blackbird_sliderheading1') != '') { ?>
+<style type="text/css">
+.carousel {
+  position: relative;
+}
 
-                            <h1><a href="<?php
-                    if (blackbird_get_option('blackbird_Sliderlink1') != '') {
-                        echo blackbird_get_option('blackbird_Sliderlink1');
-                    }
-                            ?>"><?php echo stripslashes(blackbird_get_option('blackbird_sliderheading1')); ?></a></h1>
-                        <?php } else { ?>
-                            <h1><a href="#"><?php _e('Elegancy with Simplicity', 'black-bird'); ?></a></h1>
-                            <?php } ?>
-                            <?php if (blackbird_get_option('blackbird_sliderdes1') != '') { ?>
-                            <p>					   
-                            <?php echo stripslashes(blackbird_get_option('blackbird_sliderdes1')); ?>
-                            </p>
-                        <?php } else { ?>
-                            <p><?php _e('Blackbird Theme allows you to create your website through an easy to use themes options panel.', 'black-bird'); ?></p>
-                <?php } ?>						 
-                    </div>
-                </li>
-<?php } ?>
-            <!--End Slider-->
-        </ul>
-    </div>
-</div>
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+          transition: 0.6s ease-in-out left;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+}
+
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+
+.carousel-inner > .active {
+  left: 0;
+}
+
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.carousel-inner > .next {
+  left: 100%;
+}
+
+.carousel-inner > .prev {
+  left: -100%;
+}
+
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+
+.carousel-inner > .active.left {
+  left: -100%;
+}
+
+.carousel-inner > .active.right {
+  left: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.carousel-control.left {
+  background-color: rgba(0, 0, 0, 0.0001);
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.carousel-control .glyphicon,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 120px;
+  padding-left: 0;
+  margin-left: -60px;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption .btn {
+  text-shadow: none;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+  }
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
+</style>
+<script src="/wp-content/themes/blackbird/js/jquery-1.10.2.min.js"></script>
+<script src="/wp-content/themes/blackbird/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 5000
+    });
+
+    $('.carousel').carousel('cycle');
+
+  });
+</script>
+
+<section id="caro">
+  <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li class="" data-slide-to="1" data-target="#myCarousel"></li>
+          <li class="" data-slide-to="2" data-target="#myCarousel"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="item active">
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/aVl4kYo.png"></img>
+                <div class="flex-caption">
+                    <h1>
+                        <a href="http://www.linkedin.com/pub/mayank-bhatia/53/452/650">Our President, Mayank Bhatia</a>
+                    </h1>
+                    <p>                    
+                        Under Mayank's leadership, SEED has expanded to over 60 clients and has strengthened ties in existing partnerships.
+                    </p>
+                </div>
+          </div>
+          <div class="item">
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/oogODLR.png"></img>
+                <div class="flex-caption">
+                    <h1>
+                        <a href="#">Delivery</a>
+                    </h1>
+                    <p>                    
+                        Strong at the point of attack
+                    </p>
+                </div>
+          </div>
+          <div class="item">
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/RcNyPuU.png"></img>
+                <div class="flex-caption">
+                    <h1>
+                        <a href="#">Client Services</a>
+                    </h1>
+                    <p>                    
+                        Risk, Financial, and Quantitative Management.
+                    </p>
+                </div>
+          </div>
+      </div>
+      <a class="left carousel-control" data-slide="prev" href="#myCarousel">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" data-slide="next" href="#myCarousel">
+        <span class="icon-next"></span>
+      </a>
+  </div>
+</section>
 <!--End Silder Wrapper-->
 <div class="clear"></div>
 <div class="seprator"></div>
@@ -145,7 +358,7 @@ if (blackbird_get_option('blackbird_link3') != '') {
 ?>"><?php _e('Read More', 'black-bird'); ?></a> </div>
         </div>
     </div>
-</div>			
+</div>      
 <div class="clear"></div>
 </div>
 </div>

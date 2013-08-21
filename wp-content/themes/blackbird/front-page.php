@@ -296,11 +296,9 @@
                             ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline1')); ?></a></h1>
                 <?php } else { ?> <h1><a href="#"><?php _e('News & Events', 'black-bird'); ?></a></h1>
                 <?php } ?>
-                <?php if (blackbird_get_option('blackbird_feature1') != '') { ?>
-                    <p><?php echo stripslashes(blackbird_get_option('blackbird_feature1')); ?></p>
-                <?php } else { ?>
+
                     <p><?php _e('A new school year begins. Check out the latest updates from the team. ', 'black-bird'); ?></p>
-<?php } ?>
+
                 <a class="read-more" href="<?php
 if (blackbird_get_option('blackbird_link1') != '') {
     echo blackbird_get_option('blackbird_link1');
@@ -321,11 +319,10 @@ if (blackbird_get_option('blackbird_link1') != '') {
                     ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline2')); ?></a></h1>
                 <?php } else { ?> <h1><a href="#"><?php _e('Join Us', 'black-bird'); ?></a></h1>
                    <?php } ?>
-<?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
-                    <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
-                <?php } else { ?>
+
+
                     <p><?php _e('Think you have what it takes to join SEED? Start your application now for fall interviews.', 'black-bird'); ?></p>
-                <?php } ?>
+
                 <a class="read-more" href="<?php
                 if (blackbird_get_option('blackbird_link2') != '') {
                     echo blackbird_get_option('blackbird_link2');
@@ -346,11 +343,9 @@ if (blackbird_get_option('blackbird_link1') != '') {
                     ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline2')); ?></a></h1>
                 <?php } else { ?> <h1><a href="#"><?php _e('Engage as a Client', 'black-bird'); ?></a></h1>
                    <?php } ?>
-<?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
-                    <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
-                <?php } else { ?>
+
                     <p><?php _e('Get in touch with our leadership to see how SEED can help your organization.', 'black-bird'); ?></p>
-                <?php } ?>
+
                 <a class="read-more" href="<?php
                 if (blackbird_get_option('blackbird_link2') != '') {
                     echo blackbird_get_option('blackbird_link2');
@@ -371,11 +366,9 @@ if (blackbird_get_option('blackbird_link1') != '') {
                     ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline3')); ?></a></h1>
                 <?php } else { ?> <h1><a href="#"><?php _e('Support Us', 'black-bird'); ?></a></h1>
                 <?php } ?>
-                <?php if (blackbird_get_option('blackbird_feature3') != '') { ?>
-                                    <p><?php echo stripslashes(blackbird_get_option('blackbird_feature3')); ?></p>
-                <?php } else { ?>
+
                                     <p><?php _e('SEED is a registered 501c3 that takes tax-deductible donations. Your generosity is crucial. ', 'black-bird'); ?></p>
-                <?php } ?>
+
                 <a class="read-more" href="<?php
 if (blackbird_get_option('blackbird_link3') != '') {
     echo blackbird_get_option('blackbird_link3');

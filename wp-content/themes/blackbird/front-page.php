@@ -299,7 +299,7 @@
                 <?php if (blackbird_get_option('blackbird_feature1') != '') { ?>
                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature1')); ?></p>
                 <?php } else { ?>
-                    <p><?php _e('BlackBird Wordpress Theme comes with a Unique Circular Pattern, which makes your website stand out from the crowd.', 'black-bird'); ?></p>
+                    <p><?php _e('A new school year begins. Check out the latest updates from the team. ', 'black-bird'); ?></p>
 <?php } ?>
                 <a class="read-more" href="<?php
 if (blackbird_get_option('blackbird_link1') != '') {
@@ -324,7 +324,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
 <?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
                 <?php } else { ?>
-                    <p><?php _e('The BlackBird Wordpress Theme is highly optimized to look Professional. So that your website looks great to your visitors.', 'black-bird'); ?></p>
+                    <p><?php _e('Think you have what it takes to join SEED? Start your application now for fall interviews.', 'black-bird'); ?></p>
                 <?php } ?>
                 <a class="read-more" href="<?php
                 if (blackbird_get_option('blackbird_link2') != '') {
@@ -349,7 +349,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
 <?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
                 <?php } else { ?>
-                    <p><?php _e('The BlackBird Wordpress Theme is highly optimized to look Professional. So that your website looks great to your visitors.', 'black-bird'); ?></p>
+                    <p><?php _e('Get in touch with our leadership to see how SEED can help your organization.', 'black-bird'); ?></p>
                 <?php } ?>
                 <a class="read-more" href="<?php
                 if (blackbird_get_option('blackbird_link2') != '') {
@@ -374,7 +374,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                 <?php if (blackbird_get_option('blackbird_feature3') != '') { ?>
                                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature3')); ?></p>
                 <?php } else { ?>
-                                    <p><?php _e('This BlackBird Wordpress Theme gives you the easiness of building your site without any coding skills required. lets put more random text here. ', 'black-bird'); ?></p>
+                                    <p><?php _e('SEED is a registered 501c3 that takes tax-deductible donations. Your generosity is crucial. ', 'black-bird'); ?></p>
                 <?php } ?>
                 <a class="read-more" href="<?php
 if (blackbird_get_option('blackbird_link3') != '') {

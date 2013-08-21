@@ -277,24 +277,24 @@
     <?php if (blackbird_get_option('blackbird_mainheading') != '') { ?>
         <h1><?php echo stripslashes(blackbird_get_option('blackbird_mainheading')); ?></h1>
     <?php } else { ?>
-        <h1><?php _e('Create beautiful &amp; Professional Website with the Blackbird Theme easily &amp; quickly.', 'black-bird'); ?></h1>
+        <h1><?php _e('Student Entrepreneurs for Economic Development', 'black-bird'); ?></h1>
 <?php } ?>
 </div>
 <div class="feature-content">
     <div class="circle-content">
-        <div class="grid_8 alpha">
+        <div class="grid_6 alpha">
             <div class="feature-content-inner one">
                 <?php if (blackbird_get_option('blackbird_wimg1') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_wimg1'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle"><img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" /></div>
+                    <div class="circle moveCircle"><img src="" /></div>
                         <?php } ?>
                         <?php if (blackbird_get_option('blackbird_headline1') != '') { ?><h1><a href="<?php
                         if (blackbird_get_option('blackbird_link1') != '') {
                             echo blackbird_get_option('blackbird_link1');
                         }
                             ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline1')); ?></a></h1>
-                <?php } else { ?> <h1><a href="#"><?php _e('Unique Circular Design', 'black-bird'); ?></a></h1>
+                <?php } else { ?> <h1><a href="#"><?php _e('News & Events', 'black-bird'); ?></a></h1>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_feature1') != '') { ?>
                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature1')); ?></p>
@@ -307,19 +307,19 @@ if (blackbird_get_option('blackbird_link1') != '') {
 }
 ?>">Read More</a> </div>
         </div>
-        <div class="grid_8">
+        <div class="grid_6">
             <div class="feature-content-inner two">
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle"><img src="<?php echo get_template_directory_uri(); ?>/images/img2.png" /></div>
+                    <div class="circle moveCircle"><img src="" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {
                         echo blackbird_get_option('blackbird_link2');
                     }
                     ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline2')); ?></a></h1>
-                <?php } else { ?> <h1><a href="#"><?php _e('Professional Design', 'black-bird'); ?></a></h1>
+                <?php } else { ?> <h1><a href="#"><?php _e('Join Us', 'black-bird'); ?></a></h1>
                    <?php } ?>
 <?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
@@ -332,24 +332,49 @@ if (blackbird_get_option('blackbird_link1') != '') {
                 }
                 ?>"><?php _e('Read More', 'black-bird') ?></a> </div>
         </div>
-        <div class=" grid_8 omega">
+        <div class="grid_6">
+            <div class="feature-content-inner two">
+                        <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
+                    <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
+                <?php } else { ?>
+                    <div class="circle moveCircle"><img src="" /></div>
+                <?php } ?>
+                <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
+                    if (blackbird_get_option('blackbird_link2') != '') {
+                        echo blackbird_get_option('blackbird_link2');
+                    }
+                    ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline2')); ?></a></h1>
+                <?php } else { ?> <h1><a href="#"><?php _e('Engage as a Client', 'black-bird'); ?></a></h1>
+                   <?php } ?>
+<?php if (blackbird_get_option('blackbird_feature2') != '') { ?>
+                    <p><?php echo stripslashes(blackbird_get_option('blackbird_feature2')); ?></p>
+                <?php } else { ?>
+                    <p><?php _e('The BlackBird Wordpress Theme is highly optimized to look Professional. So that your website looks great to your visitors.', 'black-bird'); ?></p>
+                <?php } ?>
+                <a class="read-more" href="<?php
+                if (blackbird_get_option('blackbird_link2') != '') {
+                    echo blackbird_get_option('blackbird_link2');
+                }
+                ?>"><?php _e('Read More', 'black-bird') ?></a> </div>
+        </div>        
+        <div class=" grid_6 omega">
             <div class="feature-content-inner three">
                 <?php if (blackbird_get_option('blackbird_fimg3') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg3'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle"><img src="<?php echo get_template_directory_uri(); ?>/images/img3.png" /></div>
+                    <div class="circle moveCircle"><img src="" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline3') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link3') != '') {
                         echo blackbird_get_option('blackbird_link3');
                     }
                     ?>"><?php echo stripslashes(blackbird_get_option('blackbird_headline3')); ?></a></h1>
-                <?php } else { ?> <h1><a href="#"><?php _e('Easily build Website', 'black-bird'); ?></a></h1>
+                <?php } else { ?> <h1><a href="#"><?php _e('Support Us', 'black-bird'); ?></a></h1>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_feature3') != '') { ?>
                                     <p><?php echo stripslashes(blackbird_get_option('blackbird_feature3')); ?></p>
                 <?php } else { ?>
-                                    <p><?php _e('This BlackBird Wordpress Theme gives you the easiness of building your site without any coding skills required.', 'black-bird'); ?></p>
+                                    <p><?php _e('This BlackBird Wordpress Theme gives you the easiness of building your site without any coding skills required. lets put more random text here. ', 'black-bird'); ?></p>
                 <?php } ?>
                 <a class="read-more" href="<?php
 if (blackbird_get_option('blackbird_link3') != '') {

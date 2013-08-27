@@ -1,0 +1,9 @@
+/*Client Page
+===================================================*/
+    .client li {
+    	float: left;
+    	display: inline;
+    }
+    #tri li {
+    	width: 33.33%;
+    }

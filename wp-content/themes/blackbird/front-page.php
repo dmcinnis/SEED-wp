@@ -241,24 +241,24 @@
                 </div>
           </div>
           <div class="item">
-              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/oogODLR.png"></img>
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/2xpMxiO.png"></img>
                 <div class="flex-caption">
                     <h1>
-                        <a href="#">Delivery</a>
+                        <a href="#">Our Students</a>
                     </h1>
                     <p>                    
-                        Strong at the point of attack
+                        SEED recruits the most talented individuals the University has to offer.
                     </p>
                 </div>
           </div>
           <div class="item">
-              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/RcNyPuU.png"></img>
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/GbukwCK.png"></img>
                 <div class="flex-caption">
                     <h1>
-                        <a href="#">Client Services</a>
+                        <a href="#">Our Reach</a>
                     </h1>
                     <p>                    
-                        Risk, Financial, and Quantitative Management.
+                        SEED's impact extends from the Charlottesville area to 5 continents.
                     </p>
                 </div>
           </div>
@@ -299,7 +299,7 @@
                 <?php if (blackbird_get_option('blackbird_wimg1') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_wimg1'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/tylIh1B.jpg" /></div>
                         <?php } ?>
                         <?php if (blackbird_get_option('blackbird_headline1') != '') { ?><h1><a href="<?php
                         if (blackbird_get_option('blackbird_link1') != '') {
@@ -322,7 +322,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/n73w50F.jpg" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {
@@ -346,7 +346,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/Zh2Ww8c.jpg" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {
@@ -369,7 +369,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                 <?php if (blackbird_get_option('blackbird_fimg3') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg3'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/C8TUhqW.png" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline3') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link3') != '') {

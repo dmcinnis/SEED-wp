@@ -226,6 +226,7 @@
           <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
           <li class="" data-slide-to="1" data-target="#myCarousel"></li>
           <li class="" data-slide-to="2" data-target="#myCarousel"></li>
+          <li class="" data-slide-to="3" data-target="#myCarousel"></li>
       </ol>
       <div class="carousel-inner">
           <div class="item active">
@@ -258,6 +259,17 @@
                     </h1>
                     <p>                    
                         Risk, Financial, and Quantitative Management.
+                    </p>
+                </div>
+          </div>
+          <div class="item">
+              <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/50fJqvT.png"></img>
+                <div class="flex-caption">
+                    <h1>
+                        <a href="#">Project Launch</a>
+                    </h1>
+                    <p>                    
+                        Groups meet for the first time and plan for their semester project
                     </p>
                 </div>
           </div>

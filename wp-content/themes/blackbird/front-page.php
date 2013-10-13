@@ -322,7 +322,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="http://i.imgur.com/n73w50F.jpg" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/6lb7mLZ.png" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {
@@ -346,7 +346,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="http://i.imgur.com/Zh2Ww8c.jpg" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/TI3mv4n.png" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {

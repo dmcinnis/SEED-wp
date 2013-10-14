@@ -286,11 +286,6 @@
 <div class="clear"></div>
 <div class="seprator"></div>
 <div class="content">
-    <?php if (blackbird_get_option('blackbird_mainheading') != '') { ?>
-        <h1><?php echo stripslashes(blackbird_get_option('blackbird_mainheading')); ?></h1>
-    <?php } else { ?>
-        <h1><?php _e('Student Entrepreneurs for Economic Development', 'black-bird'); ?></h1>
-<?php } ?>
 </div>
 <div class="feature-content">
     <div class="circle-content">

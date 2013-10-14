@@ -654,7 +654,7 @@ h1.ftitle {
 }
 .feature-content .read-more:hover {
     opacity:0.5;
-    color:#027319;
+    color:#08D820;
 
 }
 /*testimonial
@@ -983,7 +983,7 @@ h1.post_title.single {
     color:#7e7d7d;
 }
 .content-bar .post .post_meta a, .search  .post_meta a, .archive .post_meta a {
-    color:#d8aa08;
+    color:#08D820;
 }
 .content-bar .post .post_meta a:hover, .search  .post_meta a:hover, .archive .post_meta a:hover {
     opacity:0.5;
@@ -998,7 +998,7 @@ h1.post_title.single {
     text-align:center;
 }
 .content-bar .post .post_meta .post_comment a, .search  .post_meta .post_comment a, .archive .post_meta .post_comment a {
-    color:#d8aa08;
+    color:#08D820;
 }
 /*-----------------------------------------------------*/
 /* Commentlist Style*/
@@ -1320,7 +1320,7 @@ textarea#comment {
     font-family:"Trebuchet MS";
 }
 .sidebar ul li a:hover {
-    color:#d8aa08;
+    color:#08D820;
 }
 .sidebar li.twidget {
     border-bottom:1px dashed #d5d5d8;
@@ -1328,7 +1328,7 @@ textarea#comment {
     margin-top:10px;
 }
 .sidebar li span.twidgetlink {
-    color:#d8aa08;
+    color:#08D820;
 }
 /*Fullwidth Page
 ================================================== */
@@ -1438,10 +1438,10 @@ textarea#comment {
     max-width:100%;
 }
 .gallery h1.page-title a:hover {
-    color:#d8aa08;
+    color:#08D820;
 }
 .gallery span.viewall {
-    color:#d8aa08;
+    color:#08D820;
 }
 .gallery .zoom {
     width:20px;
@@ -1472,7 +1472,7 @@ textarea#comment {
     border:5px solid #dad1bf;
 }
 .gallery .thumbnail li img:hover {
-    border:5px solid #d8aa08;
+    border:5px solid #08D820;
 }
 .gallery ul.thumbnail li {
     color:#5c5445;
@@ -1482,7 +1482,7 @@ textarea#comment {
     text-align:center;
 }
 .gallery ul.thumbnail li a:hover {
-    color:#d8aa08;
+    color:#08D820;
 }
 /*Footer 
 ================================================*/
@@ -1515,7 +1515,7 @@ textarea#comment {
     color:#688094;
 }
 .footer .widget_inner a:hover {
-    color:#d8aa08;
+    color:#08D820;
 }
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
     color:#fff;

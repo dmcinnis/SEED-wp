@@ -19,6 +19,33 @@ Template Name: News page
     <div class="page-content">
 
       <div class="media">
+        <a class="pull-left" href="http://emashup28oct2013.eventbrite.com/">
+          <img class="media-object" src="http://i.imgur.com/mCP3YJi.png">
+        </a>
+        <div class="media-body">
+          <a href="http://emashup28oct2013.eventbrite.com/"><h4 class="media-heading">E*/Tech/Biz Mashup 10/28/2013 5:30-9PM</h4></a>
+          <p>At the E*/Tech/Biz Mashup, early-stage E*ntrepreneurs will have the opportunity to 
+            present their ideas and needs before C-ville’s community of business and tech experts. 
+            This format will enable those with experience and ideas to offer advice to entrepreneurs
+             on things such as market evaluation, business strategy, marketing, sales, and funding, as 
+             well as technical solutions and approaches to solve challenges. </p>
+        </div>
+      </div>    
+
+
+      <div class="media">
+        <a class="pull-left">
+          <img class="media-object" src="http://i.imgur.com/k2UCY5r.png">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">SEED General Body Meeting 8-9PM 10/16/2013</h4></a>
+          <p>SEED at UVa is proud to present its first ever general body meeting. Hear from project teams 
+            about their work with SEED projects, and learn more about how you can get involved. 
+            More details on the event are soon to come, so stay posted!</p>
+        </div>
+      </div>
+
+      <div class="media">
         <a class="pull-left" href="http://news.virginia.edu/content/wall-street-rwanda-uva-s-2013-distinguished-alumna-seeks-world-beyond-poverty">
           <img class="media-object" src="http://i.imgur.com/qRuwKmL.png">
         </a>

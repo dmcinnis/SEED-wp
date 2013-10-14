@@ -333,7 +333,7 @@
                         <?php if (blackbird_get_option('blackbird_fimg2') != '') { ?>
                     <div class="circle"><img src="<?php echo blackbird_get_option('blackbird_fimg2'); ?>" /></div>
                 <?php } else { ?>
-                    <div class="circle moveCircle"><img src="http://i.imgur.com/ynoOEyR.png" /></div>
+                    <div class="circle moveCircle"><img src="http://i.imgur.com/eNQy2Jf.jpg" /></div>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_headline2') != '') { ?><h1><a href="<?php
                     if (blackbird_get_option('blackbird_link2') != '') {

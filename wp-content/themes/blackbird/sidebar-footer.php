@@ -27,7 +27,7 @@
                     <li><a href="<?php echo blackbird_get_option('blackbird_linked'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/linkdin.png" /><?php _e('&nbsp;&nbsp;Join Us On In.com','black-bird'); ?></a></li>
                 <?php } ?>
                 <?php if (blackbird_get_option('blackbird_rss') != '') { ?>
-                    <li><a href="<?php echo blackbird_get_option('blackbird_rss'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/subscribe.png" /><?php _e('&nbsp;&nbsp;Subscribe to Our Blog','black-bird'); ?></a></li>
+                    <li><a href="<?php echo blackbird_get_option('blackbird_rss'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/subscribe.png" /><?php _e('&nbsp;&nbsp;Subscribe','black-bird'); ?></a></li>
                 <?php } ?>
             </ul>
         <?php endif; ?>

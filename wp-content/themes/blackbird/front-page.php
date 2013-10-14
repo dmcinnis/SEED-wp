@@ -311,11 +311,7 @@
 
                     <p><?php _e('A new school year begins. Check out the latest updates from the team. ', 'black-bird'); ?></p>
 
-                <a class="read-more" href="<?php
-if (blackbird_get_option('blackbird_link1') != '') {
-    echo blackbird_get_option('blackbird_link1');
-}
-?>">Read More</a> </div>
+                <a class="read-more" href="/news">Read More</a> </div>
         </div>
         <div class="grid_6">
             <div class="feature-content-inner two">
@@ -335,11 +331,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
 
                     <p><?php _e('Think you have what it takes to join SEED? Start your application now for fall interviews.', 'black-bird'); ?></p>
 
-                <a class="read-more" href="<?php
-                if (blackbird_get_option('blackbird_link2') != '') {
-                    echo blackbird_get_option('blackbird_link2');
-                }
-                ?>"><?php _e('Read More', 'black-bird') ?></a> </div>
+                <a class="read-more" href="/joining-seed"><?php _e('Apply Now', 'black-bird') ?></a> </div>
         </div>
         <div class="grid_6">
             <div class="feature-content-inner two">
@@ -358,11 +350,7 @@ if (blackbird_get_option('blackbird_link1') != '') {
 
                     <p><?php _e('Get in touch with our leadership to see how SEED can help your organization.', 'black-bird'); ?></p>
 
-                <a class="read-more" href="<?php
-                if (blackbird_get_option('blackbird_link2') != '') {
-                    echo blackbird_get_option('blackbird_link2');
-                }
-                ?>"><?php _e('Read More', 'black-bird') ?></a> </div>
+                <a class="read-more" href="mailto:info@seedatuva.com"><?php _e('Connect Now', 'black-bird') ?></a> </div>
         </div>        
         <div class=" grid_6 omega">
             <div class="feature-content-inner three">
@@ -379,13 +367,9 @@ if (blackbird_get_option('blackbird_link1') != '') {
                 <?php } else { ?> <h1><a href="#"><?php _e('Support Us', 'black-bird'); ?></a></h1>
                 <?php } ?>
 
-                                    <p><?php _e('SEED is a registered 501c3 that takes tax-deductible donations. Your generosity is crucial. ', 'black-bird'); ?></p>
+                                    <p><?php _e('SEED is a registered 501(c)3 certified organization. Donations are 100% tax-deductible. ', 'black-bird'); ?></p>
 
-                <a class="read-more" href="<?php
-if (blackbird_get_option('blackbird_link3') != '') {
-    echo blackbird_get_option('blackbird_link3');
-}
-?>"><?php _e('Read More', 'black-bird'); ?></a> </div>
+                <a class="read-more" href="http://hoosonline.virginia.edu/supportseed"><?php _e('Donate Now', 'black-bird'); ?></a> </div>
         </div>
     </div>
 </div>      

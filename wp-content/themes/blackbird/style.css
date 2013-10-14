@@ -601,7 +601,7 @@ h1.ftitle {
     color:#fff;
     line-height:100px;
     text-align:center;
-    background:#f3cc0c;
+    background:#027319;
     margin-left:45px;
     display:block;
     /*
@@ -621,7 +621,7 @@ h1.ftitle {
     -moz-border-radius:100px;
     -webkit-border-radius:100px;
     -khtml-border-radius:100px;
-    background:#f3cc0c;
+    background:#027319;
     margin:5px;
     text-align:center;
     -webkit-transition:all 0.6s linear;
@@ -635,7 +635,7 @@ h1.ftitle {
 }
 .feature-content-inner .circle img:hover {
     opacity:0.5;
-    color:#f8ca23;
+    color:#027319;
 }
 .feature-content-inner .read-more {
     background:url(images/readmore.png) center no-repeat;
@@ -654,7 +654,8 @@ h1.ftitle {
 }
 .feature-content .read-more:hover {
     opacity:0.5;
-    color:#f8ca23;
+    color:#027319;
+
 }
 /*testimonial
 =============================================*/

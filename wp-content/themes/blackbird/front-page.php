@@ -269,7 +269,7 @@
                         <a href="#">Project Launch</a>
                     </h1>
                     <p>                    
-                        Groups meet for the first time and plan for their semester project
+                        Groups meet for the first time and plan for their semester projects.
                     </p>
                 </div>
           </div>

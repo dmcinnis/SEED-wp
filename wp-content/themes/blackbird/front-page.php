@@ -233,7 +233,7 @@
               <img alt="" style="width: 950px; height: 390px; margin: 0 auto" src="http://i.imgur.com/aVl4kYo.png"></img>
                 <div class="flex-caption">
                     <h1>
-                        <a href="http://www.linkedin.com/pub/mayank-bhatia/53/452/650">Our President, Mayank Bhatia</a>
+                        <a href="http://www.linkedin.com/pub/mayank-bhatia/53/452/650">Mayank Bhatia</a>
                     </h1>
                     <p>                    
                         Under Mayank's leadership, SEED has expanded to over 60 clients and has strengthened ties in existing partnerships.

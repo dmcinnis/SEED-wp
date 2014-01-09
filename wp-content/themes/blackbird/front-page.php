@@ -236,7 +236,7 @@
                         <a href="http://www.linkedin.com/pub/mayank-bhatia/53/452/650">Mayank Bhatia</a>
                     </h1>
                     <p>                    
-                        Under Mayank's leadership, SEED has expanded to over 60 clients and has strengthened ties in existing partnerships.
+                        Under Mayank's leadership, SEED has expanded to new clients and has strengthened ties in existing partnerships.
                     </p>
                 </div>
           </div>

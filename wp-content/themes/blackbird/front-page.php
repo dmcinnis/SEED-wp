@@ -324,9 +324,9 @@
                    <?php } ?>
 
 
-                    <p><?php _e('Think you have what it takes to join SEED? Start your application now for fall interviews.', 'black-bird'); ?></p>
+                    <p><?php _e('Think you have what it takes to join SEED? Start your application now for Spring interviews!', 'black-bird'); ?></p>
 
-                <a class="read-more" href="/joining-seed"><?php _e('Apply Now', 'black-bird') ?></a> </div>
+                <a class="read-more" href="https://docs.google.com/a/virginia.edu/spreadsheet/viewform?usp=drive_web&formkey=dDJlRmswV2dfcUxBWFQ5Yk55b3hWZXc6MA#gid=0"><?php _e('Apply Now', 'black-bird') ?></a> </div>
         </div>
         <div class="grid_6">
             <div class="feature-content-inner two">
